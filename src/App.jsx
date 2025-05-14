@@ -12,7 +12,7 @@ function App() {
     <div className="min-h-screen bg-background">
       <Header />
 
-      <main className="container mx-auto px-4 py-8 w-[90%] md:[80%]">
+      <main className="container mx-auto px-4 py-8 w-[100%] md:w-[90%]">
         <h1 className="text-4xl font-bold text-center mb-8">
           Welcome to My Portfolio
         </h1>
