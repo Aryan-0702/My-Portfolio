@@ -66,7 +66,7 @@ const Header = () => {
         {/* Info and Actions */}
         <div className="w-full md:w-2/3 flex flex-col justify-center">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-1 tracking-tight drop-shadow-lg transition-colors duration-300 hover:text-teal-200">
-            Aryan 
+            Aryan Lad
           </h1>
           <h2 className="text-xl md:text-2xl font-medium mb-6 text-teal-100">
             Front-End React Developer
