@@ -1,7 +1,6 @@
-import { Github, Linkedin, Mail, FileText } from "lucide-react";
+import { Github, Linkedin, Mail, FileText, Phone  } from "lucide-react";
 import portfolioPdf from "../assets/Aryan_Lad_Portfolio.pdf";
 
-// Reusable Tooltip component with tooltip shown below
 const Tooltip = ({ children, text }) => (
   <div className="relative group cursor-pointer">
     {children}
@@ -26,6 +25,15 @@ const Footer = () => {
               aria-label="Email"
             >
               <Mail size={22} />
+            </a>
+          </Tooltip>
+          <Tooltip text="Call Me">
+            <a
+              href="tel:+919574157418"
+              className="hover:text-teal-200 transition-colors"
+              aria-label="Phone"
+            >
+              <Phone size={22} />
             </a>
           </Tooltip>
           <Tooltip text="LinkedIn Profile">

@@ -44,7 +44,7 @@ const Skills = () => {
         <div>
           <h3 className="text-xl font-bold mb-3">Generative AI</h3>
           <div className="space-y-2">
-            <h4 className="text-base font-medium text-gray-700"><b>ChatGPT  -</b> AI assistant for coding, debugging, and content generation</h4>
+            <h4 className="text-base font-medium text-gray-700"><b>ChatGPT  -</b> AI assistant for coding, debugging and content generation</h4>
             <h4 className="text-base font-medium text-gray-700"><b>v0.dev  -</b> AI-powered coding productivity tool</h4>
             <h4 className="text-base font-medium text-gray-700"><b>Perplexity AI  -</b> AI search and answer engine</h4>
             <h4 className="text-base font-medium text-gray-700"><b>Mistral  -</b> Advanced open-source language models</h4>

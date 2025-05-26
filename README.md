@@ -1,4 +1,4 @@
-A personal portfolio built using React and Tailwind CSS to showcase my skills, projects, and resume.
+A personal portfolio built using React and Tailwind CSS to showcase my skills, projects and resume.
 
 Features
 
