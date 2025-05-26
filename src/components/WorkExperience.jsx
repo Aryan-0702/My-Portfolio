@@ -31,7 +31,7 @@ const WorkExperience = () => {
 
         <ExperienceCard
           title="Web Designing Intern"
-          company="TeTechno Heaven Consultancy Pvt. Ltd. — Onsite"
+          company="Techno Heaven Consultancy Pvt. Ltd. — Onsite"
           period="Jul 2023 - Aug 2023"
           description=""
           projects={["Designed and developed static travel-related webpages using HTML and CSS.",
