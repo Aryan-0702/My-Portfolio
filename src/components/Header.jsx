@@ -42,7 +42,7 @@ const Header = () => {
               </a>
             </div>
           </div>
-          {/* Socials and CTA */}
+       
           <div className="flex items-center gap-6 mt-2">
             <a
               href="https://www.linkedin.com/in/aryan-lad-83b42a263/"
