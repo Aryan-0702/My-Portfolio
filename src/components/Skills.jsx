@@ -18,7 +18,6 @@ const Skills = () => {
         </div>
 
         <div>
-          {/* <h3 className="text-xl font-bold mb-3">JavaScript Library</h3> */}
           <div className="space-y-3">
             <SkillBar name="React" percentage={85} />
           </div>
