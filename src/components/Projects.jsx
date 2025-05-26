@@ -1,4 +1,5 @@
 import ProjectCard from "./ProjectCard"
+import Languages from "./Languages"
 
 const Projects = () => {
   const academicProjects = [
@@ -21,17 +22,20 @@ const Projects = () => {
   ]
 
   return (
-    <section>
-      <h2 className="text-2xl font-bold text-teal-700 border-b-2 border-teal-700 pb-2 mb-6 uppercase mt-10">
-        Academic Projects
-      </h2>
+    <>
+      <section>
+        <h2 className="text-2xl font-bold text-teal-700 border-b-2 border-teal-700 pb-2 mb-6 uppercase mt-10">
+          Academic Projects
+        </h2>
 
-      <p className="mb-4">A list of completed mini projects at QSpider includes:</p>
+        <p className="mb-4">A list of completed mini projects at QSpider includes:</p>
 
-      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-6">
-        <ProjectCard projects={academicProjects} />
-      </div>
-    </section>
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-6">
+          <ProjectCard projects={academicProjects} />
+        </div>
+      </section>
+      <Languages />
+    </>
   )
 }
 

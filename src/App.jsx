@@ -4,7 +4,6 @@ import WorkExperience from "./components/WorkExperience"
 import Skills from "./components/Skills"
 import Certificates from "./components/Certificates"
 import Footer from "./components/Footer"
-import Languages from "./components/Languages"
 
 function App() {
   return (
@@ -19,7 +18,6 @@ function App() {
           <Skills />
           <Certificates />
         </div>
-        <Languages />
       </main>
 
       <Footer />

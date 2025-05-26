@@ -7,7 +7,7 @@ const Skills = () => {
 
       <div className="space-y-6">
         <div>
-          <h3 className="text-xl font-bold mb-3">Frontend Development</h3>
+          <h3 className="text-xl font-bold mb-3">Frontend</h3>
           <div className="space-y-3">
             <SkillBar name="HTML" percentage={90} />
             <SkillBar name="CSS" percentage={85} />
@@ -24,40 +24,41 @@ const Skills = () => {
         </div>
 
         <div>
-          <h3 className="text-xl font-bold mb-3">Frontend Technologies</h3>
+          {/* <h3 className="text-xl font-bold mb-3">Frontend Technologies</h3> */}
           <div className="space-y-3">
             <SkillBar name="Bootstrap" percentage={80} />
           </div>
         </div>
 
-        <div>
+               <div>
           <h3 className="text-xl font-bold mb-3">Build Tools</h3>
-          <div className="space-y-2">
-            <h4 className="text-base font-medium text-gray-700"><b>Vite -</b> Fast build tool for modern frontend apps</h4>
-            <h4 className="text-base font-medium text-gray-700"><b>npm / Yarn -</b> JavaScript package managers</h4>
-            <h4 className="text-base font-medium text-gray-700"><b>Git & GitHub -</b> Version control & project hosting</h4>
-            <h4 className="text-base font-medium text-gray-700"><b>Netlify / Vercel -</b> Deployment platforms</h4>
+          <div className="space-y-3">
+            <SkillBar name="Vite" percentage={80} />
+            <SkillBar name="npm / Yarn" percentage={85} />
+            <SkillBar name="Git & GitHub" percentage={75} />
+            <SkillBar name="Netlify / Vercel" percentage={90} />
           </div>
         </div>
 
+        {/* Generative AI */}
         <div>
-          <h3 className="text-xl font-bold mb-3">Generative AI</h3>
-          <div className="space-y-2">
-            <h4 className="text-base font-medium text-gray-700"><b>ChatGPT  -</b> AI assistant for coding, debugging and content generation</h4>
-            <h4 className="text-base font-medium text-gray-700"><b>v0.dev  -</b> AI-powered coding productivity tool</h4>
-            <h4 className="text-base font-medium text-gray-700"><b>Perplexity AI  -</b> AI search and answer engine</h4>
-            <h4 className="text-base font-medium text-gray-700"><b>Mistral  -</b> Advanced open-source language models</h4>
-            <h4 className="text-base font-medium text-gray-700"><b>Microsoft Copilot  -</b> AI code completion integrated with Microsoft tools</h4>
-            <h4 className="text-base font-medium text-gray-700"><b>GitHub Copilot  -</b> AI-powered code suggestions inside IDE</h4>
+          <h3 className="text-xl font-bold mb-3">Generative AI Tools</h3>
+          <div className="space-y-3">
+            <SkillBar name="ChatGPT" percentage={85} />
+            <SkillBar name="v0.dev" percentage={90} />
+            <SkillBar name="Perplexity AI" percentage={80} />
+            <SkillBar name="Mistral" percentage={75} />
+            <SkillBar name="Microsoft Copilot" percentage={85} />
+            <SkillBar name="GitHub Copilot" percentage={80} />
           </div>
         </div>
 
+        {/* Development Tools */}
         <div>
-          <h3 className="text-xl font-bold mb-3">Generative AI</h3>
-          <div className="space-y-2">
-            <h4 className="text-base font-medium text-gray-700"><b>VS Code  -</b> Powerful, extensible code editor with rich plugin ecosystem</h4>
-            <h4 className="text-base font-medium text-gray-700"><b>Cursor AI  -</b> AI-powered coding assistant integrated in VS Code</h4>
-
+          <h3 className="text-xl font-bold mb-3">Development Tools</h3>
+          <div className="space-y-3">
+            <SkillBar name="VS Code" percentage={90} />
+            <SkillBar name="Cursor AI" percentage={75} />
           </div>
         </div>
 
