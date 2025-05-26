@@ -1,22 +1,29 @@
-const ProjectCard = ({ title, description, technologies }) => {
+import { useState } from "react"
+
+const ProjectCard = ({ projects }) => {
+  const [hoveredIndex, setHoveredIndex] = useState(null)
+
   return (
-    <div className="border border-gray-200 rounded-lg shadow-sm h-full hover:shadow-lg transition-shadow">
-      <div className="p-6">
-        <h3 className="text-xl font-bold text-teal-700 mb-4">{title}</h3>
-        <p className="text-gray-700 mb-4">{description}</p>
-      </div>
-      <div className="px-6 pb-6">
-        <div className="flex flex-wrap gap-2">
-          {technologies.map((tech, index) => (
+    <div className="border border-gray-200 rounded-lg shadow-sm h-full hover:shadow-lg transition-shadow p-6">
+      <ul className="list-disc pl-5 space-y-3 text-gray-800">
+        {projects.map((project, index) => (
+          <li key={index} className="relative">
             <span
-              key={index}
-              className="px-3 py-1 bg-teal-50 text-teal-700 border border-teal-200 rounded-full text-sm"
+              onMouseEnter={() => setHoveredIndex(index)}
+              onMouseLeave={() => setHoveredIndex(null)}
+              className="cursor-pointer hover:text-teal-700 font-semibold inline-block"
             >
-              {tech}
+              {project.title}
             </span>
-          ))}
-        </div>
-      </div>
+
+            {hoveredIndex === index && (
+              <div className="absolute z-10 mt-1 ml-4 w-80 bg-white border border-gray-300 shadow-lg rounded p-3 text-sm text-gray-700">
+                {project.description}
+              </div>
+            )}
+          </li>
+        ))}
+      </ul>
     </div>
   )
 }

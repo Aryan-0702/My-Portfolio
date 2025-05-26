@@ -1,11 +1,14 @@
+import Education from "./Education"
+
+
 const Certificates = () => {
   return (
-    <section className="mb-16">
+    <section className="mb-10">
       <h2 className="text-2xl font-bold text-teal-700 border-b-2 border-teal-700 pb-2 mb-6">
         CERTIFICATES & ACHIEVEMENTS
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-1 gap-6">
         <div>
           <h3 className="text-lg font-semibold mb-3">Certificates</h3>
           <ul className="list-disc pl-5 space-y-2">
@@ -16,7 +19,7 @@ const Certificates = () => {
         </div>
 
         <div>
-          <h3 className="text-lg font-semibold mb-3">Achievements & Extracurriculars</h3>
+          <h3 className="text-lg font-semibold mb-3">Achievements</h3>
           <ul className="list-disc pl-5 space-y-2">
             <li>
               National level online Quiz on Engineering Workshop organized by Bharat Institute of Engineering and
@@ -26,6 +29,8 @@ const Certificates = () => {
           </ul>
         </div>
       </div>
+
+      <Education />
     </section>
   )
 }

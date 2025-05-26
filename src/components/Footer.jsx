@@ -28,7 +28,7 @@ const Footer = () => {
           </a>
         </div>
         <p className="text-teal-100 text-md font-semibold ">
-          Front-End React Developer
+          Frontend  React Developer
         </p>
         {/* <p className="text-xs text-teal-200 mt-1">
           © {new Date().getFullYear()} Aryan Lad. All rights reserved.
