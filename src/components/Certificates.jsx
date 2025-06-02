@@ -3,8 +3,8 @@ import Education from "./Education"
 
 const Certificates = () => {
   return (
-    <section className="mb-10">
-      <h2 className="text-2xl font-bold text-teal-700 border-b-2 border-teal-700 pb-2 mb-6">
+    <section className="mb-5">
+      <h2 className="text-2xl font-bold text-teal-700 border-b-2 border-teal-700 pb-2 mb-4">
         CERTIFICATES & ACHIEVEMENTS
       </h2>
 
@@ -21,6 +21,7 @@ const Certificates = () => {
         <div>
           <h3 className="text-xl font-bold mb-3">Achievements</h3>
           <ul className="list-disc pl-5 space-y-2">
+            <li>Completed intensive WordPress and Web Technologies training, mastering frontend technologies including HTML, CSS and JavaScript.</li>
             <li>
               National level online Quiz on Engineering Workshop organized by Bharat Institute of Engineering and
               Technology (BIET)

@@ -5,7 +5,7 @@ const Education = () => {
   return (
     <>
       <section>
-        <h2 className="text-2xl font-bold text-teal-700 border-b-2 border-teal-700 pb-2 mb-7 mt-10 uppercase">Education Qualifications
+        <h2 className="text-2xl font-bold text-teal-700 border-b-2 border-teal-700 pb-2 mb-7 mt-4 uppercase">Education Qualifications
         </h2>
 
         <div className="space-y-6">

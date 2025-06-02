@@ -24,7 +24,7 @@ const Projects = () => {
   return (
     <>
       <section>
-        <h2 className="text-2xl font-bold text-teal-700 border-b-2 border-teal-700 pb-2 mb-6 uppercase mt-10">
+        <h2 className="text-2xl font-bold text-teal-700 border-b-2 border-teal-700 pb-2 mb-6 uppercase mt-4">
           Academic Projects
         </h2>
 
