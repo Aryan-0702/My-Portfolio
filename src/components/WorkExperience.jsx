@@ -24,7 +24,7 @@ const WorkExperience = () => {
           title="Web Development Intern"
           company="Svaapta IT Ally Solutions Pvt. Ltd. — Onsite"
           period="Jan 2024 - Apr 2024"
-          description="Completed intensive WordPress and Web Technologies training, gaining hands-on experience in frontend development using HTML, CSS, JavaScript and PHP."
+          description="Gained hands-on experience in frontend development using HTML, CSS, JavaScript, and PHP during intensive WordPress and Web Technologies training."
           projects={[
             "Created responsive web pages and implemented clone templates based on provided designs, focusing on layout precision and cross-device compatibility.",
             "Resolved UI and functionality issues in the existing Knowledge Centre project — a centralized platform for organizational skill and knowledge management — improving user experience and system reliability."
@@ -34,7 +34,7 @@ const WorkExperience = () => {
           title="Web Designing Intern"
           company="Techno Heaven Consultancy Pvt. Ltd. — Onsite"
           period="Jul 2023 - Aug 2023"
-          description="Gained hands-on experience in frontend design by creating visually engaging single-page layouts for the travel and tourism sector."
+          description="Gained hands-on experience in frontend design by creating visually engaging single-page layouts for the travel and tourism sector using HTML and CSS."
           projects={[
             "Designed and developed static travel service web pages similar to commercial travel websites",
             "Focused on layout design, responsiveness and clean UI principles to ensure a professional and accessible user interface."
